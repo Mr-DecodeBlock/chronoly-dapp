@@ -57,8 +57,8 @@ const Main = ({ setError, setErrMsg }) => {
                     </div>
                 </div>
                 <div className="stakeInfo md:pl-20 w-full md:w-1/2 mb-8 z-10">
-                    <div className="flex flex-col space-y-11 items-center justify-center">
-                        <div className="flex min-h-[8rem] bg-[color:var(--cards-bg)] w-full p-8 items-start justify-between text-left">
+                    <div className="flex flex-col space-y-11">
+                        {/* <div className="flex min-h-[8rem] bg-[color:var(--cards-bg)] w-full p-8 items-start justify-between text-left">
                             <div>
                                 <h2 className="font-extrabold text-2xl" style={{textShadow: "0 0 0.01em #fff, 0 0 1em #fff"}}>$0.00001</h2>
                                 <p className="uppercase text-sm font-light">Token Price</p>
@@ -75,7 +75,7 @@ const Main = ({ setError, setErrMsg }) => {
                                     <path d="  M70,30  h8  v-19.35071883329862  q0,-0 -0,-0  h-8  q-0,0 -0,0  Z" fill="#b28760" />
                                 </svg>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="flex min-h-[8rem] bg-[color:var(--cards-bg)] w-full p-8 items-start text-left justify-between">
                             <div>
                                 <h2 className="font-extrabold text-2xl" style={{textShadow: "0 0 0.01em #fff, 0 0 1em #fff"}}>{(blockChainData.TotalRewards) ? parseFloat(blockChainData.TotalRewards).toFixed(2) : '0.00'} {CONFIG.tokenSymbol}</h2>
